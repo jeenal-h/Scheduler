@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Scheduler</string>
+    <string name="splash_logo">scheduler</string>
+    <string name="splash_text">SCHEDULER</string>
+
+    <string name="description">scheduler</string>
+    <string name="SCHEDULER">SCHEDULER</string>
+    <string name="login_page">LOGIN</string>
+
+    <string name="button">GO</string>
+    <string name="textView"> </string>
+    <string name="admin_login">ADMIN LOGIN</string>
+    <string name="student_login">STUDENT LOGIN</string>
+    <string name="teacher_login">TEACHER LOGIN</string>
+    <string name="login_attempts">Attempts Left</string>
+    <string name="L_user_type">ENTER YOUR USER-TYPE</string>
+    <string name="L_button">OK</string>
+    <string name="register_logo">REGISTER</string>
+    <string name="Register_tv">Create your account. It\'s free and only takes a minute!</string>
+    <string name="s_register">Students Register Here</string>
+    <string name="t_register">Teachers Register Here</string>
+    <string name="S_register_tv">STUDENT REGISTRATION</string>
+    <string name="T_register_tv">TEACHER REGISTRATION</string>
+    <string name="new_user_sign_up">NEW USER? SIGN UP!</string>
+    <string name="register_tv_name">NAME</string>
+    <string name="register_tv_email">ENTER YOUR EMAIL ID</string>
+    <string name="userID">ENTER YOUR USER ID</string>
+    <string name="userEmail">ENTER YOUR EMAIL ID</string>
+    <string name="userPassword">PASSWORD</string>
+    <string name="register_button_go">GO</string>
+    <string name="register_tv_login1">ALREADY SIGNED IN. LOGIN ME!</string>
+    <string name="register_tv_login2">ALREADY REGISTERED. LOGIN ME!</string>
+    <string name="register_tv_password">PASSWORD</string>
+    <string name="s_frame_tv1">USER-TYPE</string>
+    <string name="t_frame_tv1">USER-TYPE</string>
+    <string name="s_frame_tv2">(Enter 01 for Student)</string>
+    <string name="t_frame_tv2">(Enter 02 for Teacher)</string>
+    <string name="s_button">GO</string>
+    <string name="t_button">GO</string>
+    <string name="ADD_button">ADD</string>
+    <string name="UPDATE_button">UPDATE</string>
+    <string name="DELETE_button">DELETE</string>
+
+    <string name="add_student_tv">ADD STUDENT</string>
+    <string name="update_student_tv">UPDATE STUDENT</string>
+    <string name="delete_student_tv">DELETE STUDENT</string>
+    <string name="student_database_tv">STUDENT DATABASE</string>
+
+    <string name="add_teacher_tv">ADD TEACHER</string>
+    <string name="update_teacher_tv">UPDATE TEACHER</string>
+    <string name="delete_teacher_tv">DELETE TEACHER</string>
+    <string name="teacher_database_tv">TEACHER DATABASE</string>
+
+    <string name="card_view_activity">CARD_VIEW</string>
+    <string name="card_view">layout</string>
+
+    <string name="menu_logout">Logout</string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="A_cv_rl_text1">STUDENT DETAILS</string>
+    <string name="A_cv_rl_text2">TEACHER DETAILS</string>
+    <string name="A_cv_rl_text3">SCHEDULE</string>
+    <string name="A_cv_rl_text4">NOTEPAD</string>
+
+    <string name="SD_cv_rl_text1">ADD     STUDENTS</string>
+    <string name="SD_cv_rl_text2">DELETE   STUDENTS</string>
+    <string name="SD_cv_rl_text3">UPDATE STUDENTS</string>
+    <string name="SD_cv_rl_text4">STUDENT DATABASE</string>
+
+    <string name="TD_cv_rl_text1">ADD     TEACHERS</string>
+    <string name="TD_cv_rl_text2">DELETE   TEACHERS</string>
+    <string name="TD_cv_rl_text3">UPDATE  TEACHERS</string>
+    <string name="TD_cv_rl_text4">TEACHER DATABASE</string>
+
+    <string name="SC_cv_rl_text1">SCHEDULE FOR STUDENTS</string>
+    <string name="SC_cv_rl_text2">SCHEDULE FOR TEACHERS</string>
+
+    <string name="S_cv_rl_text1">WEEKLY SCHEDULE</string>
+    <string name="S_cv_rl_text2">MY NOTES</string>
+
+    <string name="T_cv_rl_text1">WEEKLY SCHEDULE</string>
+    <string name="T_cv_rl_text2">MY NOTES</string>
+
+    <string name="SFS_cv_rl_text1">BATCH 1</string>
+    <string name="SFS_cv_rl_text2">BATCH 2</string>
+    <string name="SFS_cv_rl_text3">BATCH 3</string>
+    <string name="SFS_cv_rl_text4">BATCH 4</string>
+
+    <string name="T_id">Teacher Id No</string>
+    <string name="T_date">Date</string>
+    <string name="T_day">Day</string>
+    <string name="T_subject">Subject</string>
+    <string name="T_topic">Topic</string>
+    <string name="T_time">Time</string>
+    <string name="T_batch">Batch</string>
+    <string name="T_branch">Branch</string>
+    <string name="T_add_schedule">ADD SCHEDULE</string>
+    <string name="T_update_schedule">UPDATE SCHEDULE</string>
+    <string name="T_delete_schedule">DELETE SCHEDULE</string>
+
+    <string name="B_date">Date</string>
+    <string name="B_day">Day</string>
+    <string name="B_subject">Subject</string>
+    <string name="B_topic">Topic</string>
+    <string name="B_time">Time</string>
+    <string name="B_batch">Batch</string>
+    <string name="B_teacher">Teacher</string>
+    <string name="B_add_schedule">ADD SCHEDULE</string>
+    <string name="B_update_schedule">UPDATE SCHEDULE</string>
+    <string name="B_delete_schedule">DELETE SCHEDULE</string>
+
+    <string name="S_schedule">ENTER YOUR BATCH NO.</string>
+    <string name="T_schedule">ENTER YOUR ID NO.</string>
+    <string name="OK">OK</string>
+
+    <string name="view_s_database">View Student Database</string>
+    <string name="view_t_database">View Teacher Database</string>
+    <string name="loading">Please wait... Loading</string>
+
+    <string name="DeleteNote">Are you Sure?</string>
+    <string name="notepad_lv_popup_menu_i1">Rename note</string>
+    <string name="notepad_lv_popup_menu_i2">Delete note</string>
+    <string name="tv_name">NAME</string>
+    <string name="ed_note_name">Enter the name of the note here</string>
+    <string name="note_content">Type here...</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_student_details">Student Details</string>
+    <string name="title_activity_teacher_details">Teacher Details</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_student">Student</string>
+    <string name="title_activity_teacher">Teacher</string>
+    <string name="S_WS_tv">Nothing Scheduled</string>
+    <string name="T_WS_tv">Nothing Scheduled</string>
+    <string name="title_activity_s__weekly_schedule">Schedule</string>
+    <string name="title_activity_t__weekly_schedule">Schedule</string>
+    <string name="title_activity_schedule_for_students">Schedule For Students</string>
+    <string name="title_activity_schedule_for_teachers">Schedule For Teachers</string>
+    <string name="title_activity_batch1">Batch 1</string>
+    <string name="title_activity_batch2">Batch 2</string>
+    <string name="title_activity_batch3">Batch 3</string>
+    <string name="title_activity_batch4">Batch 4</string>
+    <string name="title_activity_add_student">Add Student</string>
+    <string name="title_activity_delete_student">Delete Student</string>
+    <string name="title_activity_update_student">Update Student</string>
+    <string name="title_activity_student_database">Student Database</string>
+    <string name="title_activity_add_teacher">Add Teacher</string>
+    <string name="title_activity_delete_teacher">Delete Teacher</string>
+    <string name="title_activity_update_teacher">Update Teacher</string>
+    <string name="title_activity_teacher_database">Teacher Database</string>
+
+    <string-array name="TeacherSchedule1">
+        <item>ID : O1 </item>
+        <item>Date : 13–11–19</item>
+        <item>Day : Monday</item>
+        <item>Time : 5:30</item>
+        <item>Subject : Android</item>
+        <item>Topic : View Concept</item>
+        <item>Batch : 01</item>
+        <item>Branch : Thane</item>
+    </string-array>
+
+</resources>
