@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Student"
+    tools:showIn="@layout/activity_student">
+
+    <TableLayout
+        android:layout_width="354dp"
+        android:layout_height="528dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/CardView1"
+                style="@style/CardView_style"
+                android:layout_width="320dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#82EAF8"
+                android:clickable="true"
+                android:contentDescription="@string/card_view_activity"
+                android:contextClickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                app:cardBackgroundColor="#82EAF8">
+
+                <RelativeLayout
+                    android:id="@+id/RelativeLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="169dp"
+                    android:background="#00BCD4"
+                    android:clipToPadding="false"
+                    android:contentDescription="@string/card_view">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="168dp"
+                        android:layout_height="97dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="89dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="33dp"
+                        android:contentDescription="@string/S_cv_rl_text1"
+                        android:text="@string/S_cv_rl_text1"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textDirection="firstStrong"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="61dp"
+                        tools:layout_editor_absoluteY="69dp" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/CardView2"
+                style="@style/CardView_style"
+                android:layout_width="320dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#82EAF8"
+                android:clickable="true"
+                android:contentDescription="@string/card_view_activity"
+                android:contextClickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                app:cardBackgroundColor="#82EAF8">
+
+                <RelativeLayout
+                    android:id="@+id/RelativeLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="169dp"
+                    android:background="#00BCD4"
+                    android:clipToPadding="false"
+                    android:contentDescription="@string/card_view">
+
+                    <TextView
+                        android:id="@+id/Counter_tv"
+                        android:layout_width="168dp"
+                        android:layout_height="97dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="89dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="33dp"
+                        android:contentDescription="@string/S_cv_rl_text2"
+                        android:text="@string/S_cv_rl_text2"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textDirection="firstStrong"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="61dp"
+                        tools:layout_editor_absoluteY="69dp" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
