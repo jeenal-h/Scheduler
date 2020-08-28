@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AdminNotes">
+    <item android:id="@+id/rename_item"
+        android:title="@string/notepad_lv_popup_menu_i1" />
+    <item android:id="@+id/delete_item"
+        android:title="@string/notepad_lv_popup_menu_i2" />
+</menu>
